@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store Website</title>
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sora: Sora, serif;
+        --font-amd: ADLaM Display, serif;
+      }
+    </style>
+    <!-- daisi ui cdnd -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/3e1df857a3.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sora">
+    <header>
+        <nav class="bg-[#FFF9F4]">
+          <div class="w-11/12 mx-auto py-3 md:py-8 flex justify-between items-center">
+            <div class="flex gap-2 items-center">
+              <img src="c1-assets/logo-header.png" alt="">
+              <p class="hidden md:block text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+            </div>
+            <div>
+              <ul class="hidden md:flex gap-4 ">
+                <li><a href="">Find a pet</a></li>
+                <li><a href="">Breeds</a></li>
+                <li><a href="">Contact us</a></li>
+              </ul>
+            </div>
+
+            <div class="hidden md:flex gap-2 items-center">
+              <img src="c1-assets/bell (1) 1.png" alt="">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <button class="hover:bg-gray-100 bg-none border border-[#FFDC26] p-2 rounded-lg">Login</button>
+              <button class="bg-[#FFDC26] rounded-lg hover:bg-gray-100 p-2">Register</button>
+            </div>
+
+            <div class="md:hidden"><img src="c1-assets/bars-3.png" alt=""></div>
+          </div>
+        </nav>
+    </header>
+</body>
+</html>
