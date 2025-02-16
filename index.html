@@ -26,7 +26,7 @@
 </head>
 
 <body class="font-sora">
-  <header>
+  <header class="relative z-10">
     <nav class="bg-[#FFF9F4]">
       <div class="w-11/12 mx-auto py-3 md:py-8 flex justify-between items-center">
         <div class="flex gap-2 items-center">
@@ -52,15 +52,30 @@
       </div>
     </nav>
     <section class="my-16  w-11/12 mx-auto h-[600px]">
-      <div class="h-[600px] md:h-[700px] bg-[url('/c1-assets/cat-big.png')] bg-cover bg-center bg-no-repeat bg-contain sm:bg-top">
-    <div class="w-2/3 pt-10">
-        <h1 class="font-amd text-4xl md:text-5xl mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
-        <p class="md:w-[600px] mb-5">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-        <button class="bg-[#FFDC26] rounded-lg hover:bg-gray-100 p-2">Find a pet</button>
-    </div>
-</div>
+      <div
+        class="h-[600px] md:h-[700px] bg-[url('/c1-assets/cat-big.png')] bg-cover bg-center bg-no-repeat bg-contain sm:bg-top">
+        <div class="w-2/3 pt-10">
+          <h1 class="font-amd text-4xl md:text-5xl mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
+          <p class="md:w-[600px] mb-5">Discover a world of treats, toys, and essentials handpicked for your furry
+            friends. Shop now and make tails wag with joy!</p>
+          <button class="bg-[#FFDC26] rounded-lg hover:bg-gray-100 p-2">Find a pet</button>
+        </div>
+      </div>
     </section>
   </header>
+  <main>
+    <!-- my own section with animation -->
+    <section class="my-10">
+      <div class="py-20 w-11/12 mx-auto md:flex items-center justify-center">
+        <div>
+          <img class="animate-bounce md:h-[200px]" src="c1-assets/cute-dog-mid.png" alt=""></div>
+        <div class="text-center space-y-3">
+          <h1 class="font-amd text-4xl">Your pet is waiting for you</h1>
+          <button class="bg-[#FFDC26] rounded-lg hover:bg-gray-100 p-2">Find a pet</button>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
